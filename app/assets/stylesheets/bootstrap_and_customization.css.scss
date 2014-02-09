@@ -1,15 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-$body-bg: 										#ecf0f1;
-$font-family-sans-serif: 			'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-bg: 										white;
+$font-family: 								'Montserrat', sans-serif;
 $navbar-height: 							45px;
-$navbar-inverse-bg: 					#2c3e50;
-$navbar-inverse-link-color: 	white;
-$brand-primary: 							#e74c3c;
+$navbar-default-bg: 					#fff;
+$navbar-link-color: 					#7f8c8d;
+$brand-primary: 							#eb7260;
 $btn-default-bg: 							#16a085;
 $btn-default-color: 					white;
-$jumbotron-bg: 								#bdc3c7;
-$page-header-border-color: 		#95a5a6;
 
 @import 'bootstrap';
 
@@ -17,6 +15,51 @@ $page-header-border-color: 		#95a5a6;
 	text-align: center;
 }
 
-.navbar-brand {
-	font-weight: bold;
+body { 
+	padding-top: 50px; 
+	margin: 0;
+}
+
+.navbar {
+	border: none;
+}
+
+.specialjumb {
+	width: 100%;
+	margin-bottom: 0px;
+	background-color: #34495e;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.container {
+  width: 100%;//or some amount of pixels and the yellow divs follow that setting
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.contact {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.about {
+	width: 100%;
+	background-color: #eb7260;
+	color: white;
+	margin-top: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: 0;
+}
+
+.footer {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #34495e;
 }

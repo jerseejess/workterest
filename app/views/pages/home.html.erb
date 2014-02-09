@@ -1,72 +1,36 @@
-<div class="jumbotron">
-	<h1>Welcome to Workterest!</h1>
-	<p>Click here to <%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %></p>
-</div>
-
-<div class="container"> <!-- Example row of columns -->
-	<div class="row">
-	  <div class="col-md-4">
-	     <h2><span class="glyphicon glyphicon-pushpin"></span> Collect</h2>
-	    	<p>Collect knowledge. There is so much out there.</p>
-  	</div>
-  <div class="col-md-4">
-    <h2><span class="glyphicon glyphicon-share-alt"></span> Share</h2>
-      <p>Share what you know. Share useful knowledge with your team. Send to them to learn. Help brainstorm.</p>
-
-   </div>
-  <div class="col-md-4">
-      <h2><span class="glyphicon glyphicon-wrench"></span> Build</h2>
-      <p>Build skills and a training path for your team. Grow your team's skills.</p>
-  
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="specialjumb">
+  <div class="container-fluid">
+    <h1>Welcome to Workterest!</h1>
+    <p>Click here to <%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %></p>
   </div>
 </div>
-</div> <!-- /container -->
 
-<div class="page-header">
-</div>
-<!-- about page -->
-<hr>
-  <h1><center>How To Use</center></h1>
-<hr>
-<div class="row">
-    <div class="col-md-6">
-       <h2><span class="glyphicon glyphicon-pushpin"></span> Collect</h2>
-        <p>Collect knowledge. There is so much out there. Organize and sort it by skills and knowledge.</p>
-          <%= link_to "Learn More", "#", class: "btn btn-default" %>
+<div class="about">
+  <div class="container"> <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+       <h3><span class="glyphicon glyphicon-pushpin"></span> Curate</h3>
+        <p>Curate knowledge. There is so much out there. Help guide your teams to knowledge-share.</p>
     </div>
-  <div class="col-md-6">
-    <h2><span class="glyphicon glyphicon-share-alt"></span> Share</h2>
+    <div class="col-md-4">
+    <h3><span class="glyphicon glyphicon-share-alt"></span> Share</h3>
       <p>Share what you know. Share useful knowledge with your team. Send to them to learn. Help brainstorm.</p>
-        <%= link_to "Learn More", "#", class: "btn btn-default" %>
-   </div>
+    </div>
+    <div class="col-md-4">
+      <h3><span class="glyphicon glyphicon-wrench"></span> Build</h3>
+      <p>Build skills and a training path for your team. Grow your team's skills.</p>
+    </div>
+  </div>
+  </div> 
 </div>
 
-
-      </div>
-
-
-
-<!-- about page -->
-<a name="contact"></a>
-<div class="page-header">
+<div class="contact">
+  <div class="container"> <!-- Example row of columns -->
+    <h2>Contact Us</h2>
+    <p>hello@workterest.com</p>
 </div>
-<hr>
-  <h1><center>Contact Us</center></h1>
-<hr>
-<h3><center><%= mail_to "Email Us", "hello@workterest.com" %></center></h3>
-
-
 </div>
 
-<!-- about page -->
-<a name="contact"></a>
-<div class="page-header">
-</div>
-<hr>
-  <h1><center>Contact Us</center></h1>
-<hr>
-<h3><center><%= mail_to "Email Us", "hello@workterest.com" %></center></h3>
-
-
-</div>
-
+<hr >
+<!-- /container -->
