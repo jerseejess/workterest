@@ -11,6 +11,10 @@ $btn-default-color: 					white;
 
 @import 'bootstrap';
 
+.btn {
+	border: none;
+}
+
 .center {
 	text-align: center;
 }
@@ -50,7 +54,7 @@ body {
 .about {
 	width: 100%;
 	background-color: #eb7260;
-	color: white;
+	color: #ecf0f1;
 	margin-top: 0;
 	padding-top: 40px;
 	padding-bottom: 40px;

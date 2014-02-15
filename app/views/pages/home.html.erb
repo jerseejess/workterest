@@ -2,7 +2,14 @@
 <div class="specialjumb">
   <div class="container-fluid">
     <h1>Welcome to Workterest!</h1>
-    <p>Click here to <%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %></p>
+    <% if user_signed_in? %>
+    <h4>Share Something Phenomenal</h4>
+    <% else %>
+      <p>
+        <%= link_to "Log In", new_user_session_path, class: "btn btn-default btn-lg" %>
+        <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+      </p>
+    <% end %>
   </div>
 </div>
 
@@ -29,9 +36,9 @@
 <div class="contact">
   <div class="container"> <!-- Example row of columns -->
     <h2>Contact Us</h2>
-    <p>hello@workterest.com</p>
+    <%= link_to "hello@workterest.com", "mailto:hello@workterest.com?Subject=Hey Workterest" %>
 </div>
 </div>
 
-<hr >
+
 <!-- /container -->
