@@ -1,3 +1,5 @@
+<div class="container">
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -5,5 +7,9 @@
   <%= @pin.description %>
 </p>
 
-<%= link_to 'Edit', edit_pin_path(@pin) %> |
-<%= link_to 'Back', pins_path %>
+<div class="panel-footer">
+	<%= link_to 'Edit', edit_pin_path(@pin) %> |
+	<%= link_to 'Back', pins_path %>
+</div>
+
+</div>
